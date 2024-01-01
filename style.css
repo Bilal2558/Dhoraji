@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Montserrat:wght@600&display=swap');
+/* slide */
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide1 {
+   background:  url(image/slide.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
 
 
 
+.slide .display-3 {
+   text-transform: uppercase;
+   color: #fff;
+}
+
+button.color{
+background-color: #4482a7 !important;
+}
